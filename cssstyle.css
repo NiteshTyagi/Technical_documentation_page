@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+body{
+    position: static;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1{
+    background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/light-gray-wood-background-3.jpg); 
+    text-align: center; 
+    line-height: 50px;
+    border-radius: 10px;
+}
+#nav-link{
+    overflow-y: scroll;
+    height: 570px;
+    width:23%;
+    position: relative;
+}
+hr{
+    height: 2px;
+}
+#nav-link>#navbar>ol{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    font-size: 23px;
+    font-family: 'Slabo 27px', serif;
+}
+#nav-link #navbar ol a:link{
+    color:black;
+}
+#nav-link #navbar ol a:visited{
+    color:FF7119;
+}
+
+#main-doc{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpblOEsQvMBOuIIrlQxRuQvsq486WqH3VWBVOOYP1HduuXf0DurQ);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:7vw;
+    right:1vw;
+    width:74vw;
+    height:87%;
+    overflow-x: scroll;
+    border-radius: 10px;
+    margin-top: 1vw;
+}
+.heading{
+    font-size:35px;
+}
+.content{
+    font-size:24px;
+    margin-left: 1vw;
+    letter-spacing: 1px;
+}
+.code_area{
+    background-color: darkgray;
+    margin-left:2vw;
+    margin-right: 2vw;
+    padding: 1vw;
+    border-radius: 10px;
+    font-size: 18px;
+}
+@media (max-width: 830px)
+{
+    #nav-link{
+        width:100%;
+    overflow: scroll;
+        border: 1px solid black;
+        height: 230px;
+    }
+    #nav-link>ol{
+        text-align: center;
+    }
+    #main-doc{ 
+        position:static;
+        margin:2vw;
+        width:93vw;
+        overflow-x: scroll;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpblOEsQvMBOuIIrlQxRuQvsq486WqH3VWBVOOYP1HduuXf0DurQ);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    .heading{
+    font-size:33px;
+}
+.content{
+    font-size:23px;
+    margin-left: 0.5vw;
+    letter-spacing: 1px;
+}
+    .code_area{
+    background-color: darkgray;
+    margin-left:2vw;
+    margin-right: 2vw;
+    padding: 1vw;
+    border-radius: 10px;
+    font-size: 18px;
+}
+}
